@@ -1,0 +1,20 @@
+#!/bin/bash
+#my first bash script
+
+set -x 
+echo "Learning git"
+
+a=18
+b=25
+
+
+expr $a + $b 
+
+echo $?  #exit value of lst executed command
+
+echo $$  #process no.of current process
+
+echo $HOSTNAME #shows name of current host
+
+ls *1
+
